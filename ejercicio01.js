@@ -3,7 +3,7 @@
 //La función debe retornar esta nueva variable que contiene tu nombre
 
 function obtenerNombre() {
-    const nombre = "Luis";
+    let nombre = "Luis";
     return nombre;
 }
 

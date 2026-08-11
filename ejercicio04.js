@@ -2,6 +2,12 @@
 // Declara una función llamada "saludar" que acepte un parámetro "nombre" y retorne un mensaje de saludo con la estructura "Hola, nombre!".
 
 // Escribe tu función aquí. El nombre exacto debe ser saludar
+function saludar(nombre) {
+    return "Hola, " + nombre + "!";
+}
+//Ejemplos de uso de la función
+saludar("Luis"); // retorna "Hola, Luis!"
+saludar("Ana"); // retorna "Hola, Ana!"
 
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
